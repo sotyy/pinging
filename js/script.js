@@ -1,14 +1,11 @@
-var toPingPong=function(number){
-  return false;
-}
-
-
 
 var toPingPong=function(number){
-  if(number % 3 == 0){
+  if((number % 3 == 0) && (number % 5 == 0) && (number % 15 == 0)){
     return true;
-  }else{
+  }else {
     return false;
+  }
+}
 //$(document).ready(function(){
 //$(".btn").submit(function(event){
 //event.preventDefault();
